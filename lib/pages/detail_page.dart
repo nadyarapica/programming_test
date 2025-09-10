@@ -14,7 +14,7 @@ class DetailPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.network(movie.posterUrl),
+            Image.network(movie.posterAsset),
             const SizedBox(height: 16),
             Text(
               movie.title,

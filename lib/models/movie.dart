@@ -3,13 +3,13 @@ class Movie {
   final int year;
   final String genre;
   final String synopsis;
-  final String posterUrl;
+  final String posterAsset;
 
   Movie({
     required this.title,
     required this.year,
     required this.genre,
     required this.synopsis,
-    required this.posterUrl,
+    required this.posterAsset,
   });
 }
